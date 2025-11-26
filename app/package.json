@@ -1,0 +1,20 @@
+{
+  "name": "pokedex-retro",
+  "version": "1.0.0",
+  "description": "Una Pokédex simple usando Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-win": "electron-packager . Pokédex-Retro --overwrite --platform=win32 --arch=x64 --out=release-builds"
+  },
+  "keywords": [
+    "Electron",
+    "Pokédex"
+  ],
+  "author": "Alejandro Menendez Pazo",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^39.2.3",
+    "electron-packager": "^17.1.2"
+  }
+}
