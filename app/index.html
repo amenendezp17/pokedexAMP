@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéDex Retro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pokedex-container">
+        <header>
+            <div class="pokedex-title">POKEDEX</div>
+        </header>
+
+        <main class="pokedex-screen-wrapper">
+            <section id="pokemon-list" class="pokemon-grid"></section>
+
+            <div class="pagination-controls">
+                <button id="backButton" class="pokedex-button back">Back</button>
+                <button id="nextButton" class="pokedex-button next">Next</button>
+            </div>
+        </main>
+
+        <div id="modalOverlay" class="modal-overlay">
+            <div class="pokemon-detail-modal">
+                <h3 id="detail-name">Nombre del Pokémon</h3>
+                
+                <div class="pokemon-image-container">
+                    <img id="detail-image" src="" alt="Foto del Pokémon">
+                </div>
+                
+                <div id="detail-stats" class="stats-container">
+                    <p>Cargando detalles...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
